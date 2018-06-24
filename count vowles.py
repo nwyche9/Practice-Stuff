@@ -7,7 +7,7 @@ Created on Sun Jun 24 12:49:38 2018
 
 def count_vowels():
     vowels = 'aeiou'
-    string = str(input("Please enter a your sentence:  "))
+    string = str(input("Please enter your sentence:  "))
     string=string.lower()
     vowel_count=0
     for char in string:
